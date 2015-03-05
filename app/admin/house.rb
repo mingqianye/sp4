@@ -1,4 +1,5 @@
 ActiveAdmin.register House do
+  permit_params :rent
 
 
   # See permitted parameters documentation:
